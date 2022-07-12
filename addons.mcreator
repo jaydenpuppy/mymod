@@ -1,0 +1,59 @@
+{
+  "mod_elements": [
+    {
+      "name": "ADDON",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "addon"
+    },
+    {
+      "name": "PUPPY",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppy"
+    },
+    {
+      "name": "PUPPYPIRETES",
+      "type": "loottable",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppypiretes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.addons.puppy": "PUPPY",
+      "itemGroup.tabaddon": "ADDONS"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "addons",
+    "modName": "mod",
+    "version": "1.0.0",
+    "author": "valde, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

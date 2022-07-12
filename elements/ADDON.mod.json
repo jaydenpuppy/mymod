@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "ADDONS",
+    "icon": {
+      "value": "Blocks.WOOL#14"
+    },
+    "showSearch": true
+  }
+}
