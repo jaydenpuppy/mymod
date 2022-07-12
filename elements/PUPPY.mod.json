@@ -30,7 +30,7 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
+    "biomeCategory": "PLAINS",
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 0.1,
@@ -97,7 +97,7 @@
         },
         "minGroup": 100,
         "maxGroup": 1000,
-        "weight": 200,
+        "weight": 1000,
         "spawnType": "creature"
       }
     ]

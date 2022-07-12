@@ -23,6 +23,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "puppypiretes"
+    },
+    {
+      "name": "CrashMyGameCommandExecuted",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash_my_game_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrashMyGame",
+      "type": "command",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crash_my_game"
     }
   ],
   "variable_elements": [],
