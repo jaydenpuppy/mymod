@@ -31,25 +31,25 @@
     },
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
-    "rainingPossibility": 0.5,
-    "temperature": 0.5,
+    "rainingPossibility": 0.1,
+    "temperature": 1.0,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": true,
     "spawnBiomeNether": false,
-    "spawnInCaves": false,
-    "biomeWeight": 30,
+    "spawnInCaves": true,
+    "biomeWeight": 15,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 4,
+    "grassPerChunk": 5,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 4,
+    "flowersPerChunk": 5,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 10,
+    "treesPerChunk": 20,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
@@ -96,9 +96,18 @@
           "value": "EntityWolf"
         },
         "minGroup": 100,
-        "maxGroup": 1000,
+        "maxGroup": 500,
         "weight": 200,
-        "spawnType": "creature"
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityAgeable"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "ambient"
       }
     ]
   }
